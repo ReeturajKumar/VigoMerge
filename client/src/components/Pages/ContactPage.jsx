@@ -157,12 +157,12 @@ const ContactPage = () => {
 
       {/* Overlay for success message */}
       {showOverlay && (
-        <div className="fixed inset-0 bg-gradient-to-r from-[#EDF2F4] to-[#b4b9cb] flex items-center justify-center z-50">
-          <div className=" p-6 text-center">
-            <h2 className="text-3xl font-bold text-[#1842B6] mb-4">
+        <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-centerr">
+            <h2 className="bg-white text-2xl font-bold text-[#1842B6] mb-4">
               Thank you for your message!
             </h2>
-            <p className='text-2xl font-bold text-[#1842B6]'>Our team will connect with you shortly.</p>
+            <p className='text-xl font-semibold text-gray-700'>Our team will connect with you shortly.</p>
           </div>
         </div>
       )}

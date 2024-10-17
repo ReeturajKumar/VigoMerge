@@ -9,6 +9,7 @@ import clientLogo2 from "../../../assets/C2.svg";
 import clientLogo3 from "../../../assets/C3.png";
 import clientLogo4 from "../../../assets/C4.png";
 import clientLogo5 from "../../../assets/C5.png";
+import Contact from "../Option/Contact";
 
 const images = [img1, img2, img3];
 
@@ -154,53 +155,7 @@ const Organization = () => {
         </div>
 
         {/* Contact Us Form */}
-        <div className="bg-white p-4 rounded-lg shadow-sm">
-          <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-          <form>
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="name">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="w-full p-2 border border-gray-300 rounded-md"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="email">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full p-2 border border-gray-300 rounded-md"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="message">
-                Message
-              </label>
-              <textarea
-                id="message"
-                className="w-full p-2 border border-gray-300 rounded-md"
-                rows="4"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
+        <Contact/>
       </div>
     </div>
   </section>

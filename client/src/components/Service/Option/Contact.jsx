@@ -23,7 +23,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:5000/api/contact', { // Adjust URL as necessary
+      const response = await fetch('https://vigomerge.onrender.com/api/contact', { // Adjust URL as necessary
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
