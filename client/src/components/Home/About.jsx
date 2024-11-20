@@ -8,7 +8,7 @@ const About = () => {
   const [count3, setCount3] = useState(0); // For Projects Completed
   const ref = useRef(null);
 
-  const finalValues = [500, 10, 40];
+  const finalValues = [20, 7, 25];
   const duration = 2000;
 
   useEffect(() => {

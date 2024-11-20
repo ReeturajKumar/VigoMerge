@@ -1,6 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import HomePage from "./components/Pages/HomePAge";
 import ContactPage from './components/Pages/ContactPage';
 import SolutionPage from './components/Pages/SolutionPage';
@@ -24,25 +23,11 @@ import Software from './components/Service/Option/Software';
 import Quality from './components/Service/Option/Quality';
 import System from './components/Service/Option/System';
 import ScrollToTop from './components/ScrollToTop';
-import LoadingSpinner from './components/LoadingSpinner'; // Import the LoadingSpinner
 
 function App() {
-  const location = useLocation();
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    // Show the loading spinner when the route changes
-    setLoading(true);
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 500); // Adjust this timeout duration as needed
-
-    return () => clearTimeout(timer);
-  }, [location]);
 
   return (
     <>
-      {loading && <LoadingSpinner />} {/* Show the loading spinner */}
       <ScrollToTop/>
       <Navbar />
       <Routes>
