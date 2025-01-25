@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'https://www.vigomerge.com/',  // Replace with your Netlify URL
+  origin: "*",  // Replace with your Netlify URL
   methods: 'GET,POST',
   credentials: true,
 };
