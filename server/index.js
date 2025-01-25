@@ -8,11 +8,11 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const corsOptions = {
-  origin: "*",  // Replace with your Netlify URL
-  methods: 'GET,POST',
-  credentials: true,
-};
+// const corsOptions = {
+//   origin: "*",  // Replace with your Netlify URL
+//   methods: 'GET,POST',
+//   credentials: true,
+// };
 
 // Middleware
 app.use(cors(corsOptions));  // Keep only this line for CORS
