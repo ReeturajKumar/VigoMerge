@@ -14,29 +14,28 @@ const corsOptions = {
   credentials: true,
 };
 
-
-
-
 // Middleware
-app.use(cors(corsOptions));
-app.use(cors()); 
+app.use(cors(corsOptions));  // Keep only this line for CORS
 app.use(bodyParser.json()); 
 
 // Database URL from environment variables
 const DB_URL = process.env.DB_URL; 
 
 // Connect to MongoDB
-mongoose.connect(DB_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.error('MongoDB connection error:', err));
+const connectDB = async () => {
+  try {
+    await mongoose.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true });
+    console.log('MongoDB connected');
+  } catch (err) {
+    console.error('MongoDB connection error:', err);
+    process.exit(1); // Optionally exit the process on DB failure
+  }
+};
+connectDB();
 
-
-  app.get("/", (req, res) => {
-    res.send("Backend is running!");
-  });
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
 
 // Routes
 app.use('/api/contact', contactRoutes);
