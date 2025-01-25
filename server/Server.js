@@ -23,6 +23,11 @@ mongoose.connect(DB_URL, {
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
+
+  app.get("/", (req, res) => {
+    res.send("Backend is running!");
+  });
+
 // Routes
 app.use('/api/contact', contactRoutes);
 
