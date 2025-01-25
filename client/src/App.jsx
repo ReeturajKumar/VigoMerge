@@ -42,7 +42,7 @@ function App() {
         <Route path="/service/mobile-application" element={<Mobile />} />
         <Route path="/service/cloud-consulting" element={<Cloud />} />
         <Route path="/service/devOps-automation" element={<DevOps />} />
-        <Route path="/service/software-prototyping" element={<Software />} />
+        <Route path="/service/software-design" element={<Software />} />
         <Route path="/service/quality-assurance" element={<Quality />} />
         <Route path="/service/systems-integration" element={<System />} />
         <Route path="/service/strategic-planning-services" element={<Strategetic />} />

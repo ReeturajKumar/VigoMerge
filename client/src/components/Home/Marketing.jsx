@@ -74,7 +74,7 @@ const Marketing = () => {
 
             {/* Replacing <a> with <Link> */}
             <Link
-              to="/market-research-analysis"
+              to="/service/market-research-analysis"
               className="text-[#1842B6] font-semibold hover:underline"
             >
               Learn More →

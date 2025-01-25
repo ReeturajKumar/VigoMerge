@@ -92,11 +92,11 @@ const Footer = () => {
                   Market Research and Analysis
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/service/financial-consulting" className="text-gray-600 hover:text-black">
                   Financial Consulting
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/service/operations-improvement" className="text-gray-600 hover:text-black">
                   Operations Improvement
@@ -120,7 +120,7 @@ const Footer = () => {
             <h3 className="text-gray-900 font-semibold mb-4">Contact Us</h3>
             <p className="flex items-center text-gray-600 mb-4">
               <MdLocationOn className="mr-2" /> 
-              Baner Pune Maharashtra 412301
+              Baner Pune Maharashtra 411027
             </p>
             <p className="flex items-center text-gray-600 mb-4">
               <FaPhoneAlt className="mr-2" />

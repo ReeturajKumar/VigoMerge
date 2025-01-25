@@ -44,7 +44,7 @@ const Solution = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <h2 className="text-2xl font-bold text-left mb-6">
-          <span className="text-[#1842B6]">Explore Our Services</span>
+          <span className="text-[#1842B6]">Explore Our Solutions</span>
         </h2>
         <p className="text-gray-700 mb-4">
           Our range of services is designed to help your business thrive. From innovative technology solutions to dedicated support, we are here to meet your needs.

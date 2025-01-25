@@ -6,6 +6,7 @@ import img5 from '../assets/icon5.png'
 import img6 from '../assets/Icon6.png'
 import img7 from '../assets/Icon7.png'
 import img8 from '../assets/Iocn8.png'
+import img9 from '../assets/Icon9.avif'
 
 const services = [
   {
@@ -39,10 +40,10 @@ const services = [
     link: "/service/devOps-automation",
   },
   {
-    title: "Software Prototyping",
-    description: "Software Prototyping helps visualize and validate ideas early by creating functional models, reducing risks, refining features, and accelerating the development process for successful final products.",
+    title: "Software  Design",
+    description: "Software design helps visualize and validate ideas early by creating structured models, reducing risks, refining features, and streamlining the development process to ensure successful final products.",
     icon: img6,
-    link: "/service/software-prototyping",
+    link: "/service/software-design",
   },
   {
     title: "Quality Assurance",
@@ -55,6 +56,12 @@ const services = [
     description: "Systems Integration connects disparate systems, ensuring seamless data flow, improved efficiency, and streamlined operations, allowing businesses to work more cohesively across various platforms and technologies.",
     icon: img8,
     link: "/service/systems-integration",
+  },
+  {
+    title: "Robotic Process Automation",
+    description: "Robotic Process Automation (RPA) is a technology that uses software robots to automate repetitive tasks. RPA can be used in many industries, including finance, human resources, and customer service. ",
+    icon: img9,
+    link: "",
   },
 ];
 
