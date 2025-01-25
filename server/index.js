@@ -8,7 +8,17 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+const corsOptions = {
+  origin: 'https://www.vigomerge.com/',  // Replace with your Netlify URL
+  methods: 'GET,POST',
+  credentials: true,
+};
+
+
+
+
 // Middleware
+app.use(cors(corsOptions));
 app.use(cors()); 
 app.use(bodyParser.json()); 
 
