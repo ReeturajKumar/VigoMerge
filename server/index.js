@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-// const cors = require('cors');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const contactRoutes = require('./Route/contactRoute');
 require('dotenv').config();
@@ -8,14 +8,14 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// const corsOptions = {
-//   origin: "*",  // Replace with your Netlify URL
-//   methods: 'GET,POST',
-//   credentials: true,
-// };
+const corsOptions = {
+  origin: "*",  // Replace with your Netlify URL
+  methods: 'GET,POST',
+  credentials: true,
+};
 
 // Middleware
-// app.use(cors(corsOptions));  // Keep only this line for CORS
+app.use(cors(corsOptions));  // Keep only this line for CORS
 app.use(bodyParser.json()); 
 
 // Database URL from environment variables

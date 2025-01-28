@@ -10,9 +10,9 @@ const ContactPage = () => {
     message: '',
   });
 
-  const [successMessage, setSuccessMessage] = useState(''); // State for success message
-  const [showOverlay, setShowOverlay] = useState(false); // State for overlay
-  const navigate = useNavigate(); // Initialize useNavigate
+  const [successMessage, setSuccessMessage] = useState(''); 
+  const [showOverlay, setShowOverlay] = useState(false); 
+  const navigate = useNavigate(); 
 
   const handleChange = (e) => {
     setFormData({
