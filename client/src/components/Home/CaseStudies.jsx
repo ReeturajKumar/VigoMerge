@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const CaseStudies = () => {
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-16 px-4">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
         {/* Title */}
         <h1 className="text-sm font-bold text-[#1842B6] mb-4">Case studies</h1>
@@ -23,7 +23,7 @@ const CaseStudies = () => {
         {/* Case Study Cards */}
         <div className="grid md:grid-cols-2 gap-8">
           {/* Card 1 */}
-          <div className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden relative">
+          <div className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden relative">
             <div className="absolute top-4 left-4 bg-[#1842B6] text-white px-3 py-1 rounded-lg text-sm">
               April 01, 2024
             </div>
@@ -46,7 +46,7 @@ const CaseStudies = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden relative">
+          <div className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden relative">
             <div className="absolute top-4 left-4 bg-[#1842B6] text-white px-3 py-1 rounded-lg text-sm">
               April 01, 2024
             </div>
@@ -69,7 +69,7 @@ const CaseStudies = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden relative">
+          <div className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden relative">
             <div className="absolute top-4 left-4 bg-[#1842B6] text-white px-3 py-1 rounded-lg text-sm">
               April 01, 2024
             </div>
@@ -92,7 +92,7 @@ const CaseStudies = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden relative">
+          <div className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden relative">
             <div className="absolute top-4 left-4 bg-[#1842B6] text-white px-3 py-1 rounded-lg text-sm">
               April 01, 2024
             </div>

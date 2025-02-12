@@ -57,7 +57,7 @@ const About2 = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] pt-10 pb-16 px-4 mt-5">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] pt-10 pb-16 px-4 mt-5">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 p-4">
         {/* Full-Width Title */}
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-10 text-center text-[#1842B6]">

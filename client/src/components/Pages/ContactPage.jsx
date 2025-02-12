@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
-import contactImage from '../../assets/C11.avif'; // Ensure correct image path
+import contactImage from '../../assets/C11.png'; // Ensure correct image path
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -54,13 +54,13 @@ const ContactPage = () => {
   }, [showOverlay, navigate]);
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-12 px-4 sm:px-6 lg:px-8 relative">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-12 px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto mt-10 flex flex-col lg:flex-row items-center justify-between lg:h-[600px]">
         <div className="w-full lg:w-1/2 h-64 lg:h-full">
           <img 
             src={contactImage} 
             alt="Contact Us" 
-            className="w-full h-full object-cover "
+            className="w-full h-full object-contain "
           />
         </div>
 

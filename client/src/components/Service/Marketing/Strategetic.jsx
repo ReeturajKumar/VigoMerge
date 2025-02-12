@@ -25,7 +25,7 @@ const Strategetic = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-8 md:py-16">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-8 md:py-16">
       <div className="relative overflow-hidden w-full">
         <div
           className="flex transition-transform duration-500"

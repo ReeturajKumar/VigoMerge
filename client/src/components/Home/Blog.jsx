@@ -32,7 +32,7 @@ const Blog = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-8 md:py-16">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-8 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h3 className="text-[#1842B6] text-sm md:text-lg font-semibold uppercase mb-2">
@@ -45,7 +45,7 @@ const Blog = () => {
 
         <div className="grid gap-6 md:grid-cols-3">
           {blogs.map((blog) => (
-            <div key={blog.id} className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden">
+            <div key={blog.id} className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden">
               <div className="relative">
                 <img
                   src={blog.image}

@@ -2,7 +2,7 @@
 
 const Pricing = () => {
   return (
-    <div className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-10 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-10 px-4 sm:px-6 lg:px-8">
     <div className="text-center mb-10">
       <h2 className="text-base font-semibold text-[#1842B6] uppercase">Pricing Plans</h2>
       <h1 className="text-4xl font-extrabold text-gray-900">Pricing That Suits Your Needs.</h1>

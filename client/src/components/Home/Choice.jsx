@@ -3,7 +3,7 @@ import banner from '../../assets/5.png';
 
 const Choice = () => {
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-16 px-4">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-16 px-4">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start">
         {/* Left Content */}
         <div className="lg:w-1/2 lg:pr-16 text-center lg:text-left">

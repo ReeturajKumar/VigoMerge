@@ -66,7 +66,7 @@ const Blog = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-8 md:py-16">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-8 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         {/* Header */}
         <div className="text-center mb-8">
@@ -78,7 +78,7 @@ const Blog = () => {
         {/* Blog Cards */}
         <div className="grid gap-6 md:grid-cols-3">
           {displayedBlogs.map((blog) => (
-            <div key={blog.id} className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden">
+            <div key={blog.id} className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden">
               {/* Blog Image */}
               <div className="relative">
                 <img

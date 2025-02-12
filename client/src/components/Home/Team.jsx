@@ -2,7 +2,7 @@
 
 const Team = () => {
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF]  py-16 px-4">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF]  py-16 px-4">
 
       {/* Grid for Our Team Text and Team Members */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -51,7 +51,7 @@ const CaseStudies = () => {
   const displayedStudies = showAll ? caseStudies : caseStudies.slice(0, 3);
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-16 px-4">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-4 text-left">
           Learn from Our Case Studies.
@@ -65,7 +65,7 @@ const CaseStudies = () => {
         {/* Case Study Cards */}
         <div className="grid md:grid-cols-3 gap-8">
           {displayedStudies.map((study) => (
-            <div key={study.id} className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] overflow-hidden relative">
+            <div key={study.id} className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] overflow-hidden relative">
               {/* Date Label */}
               <div className="absolute top-4 left-4 bg-[#1842B6] text-white px-3 py-1 rounded-lg text-sm">
                 {study.date}

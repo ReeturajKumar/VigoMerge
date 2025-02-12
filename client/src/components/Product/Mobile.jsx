@@ -3,7 +3,7 @@ import banner from "../../assets/P3.png";
 
 const Mobile = () => {
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] pt-10 pb-16 px-4 mt-5">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] pt-10 pb-16 px-4 mt-5">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 p-4 rounded-md flex flex-col md:flex-row items-stretch">
 
         {/* Left Section */}

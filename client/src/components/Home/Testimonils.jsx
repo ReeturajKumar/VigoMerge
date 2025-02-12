@@ -145,7 +145,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-8 md:py-16">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-8 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section: Text Content on Left, Stats on Right */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 md:mb-12">

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] pt-16 pb-16 px-4 mt-5">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] pt-16 pb-16 px-4 mt-5">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 md:py-18 p-4 rounded-md h-auto flex flex-col-reverse md:flex-row items-center">
         {/* Left Section */}
         <div className="md:w-1/2 w-full p-4 text-center md:text-left">

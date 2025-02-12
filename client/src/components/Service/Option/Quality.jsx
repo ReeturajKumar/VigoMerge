@@ -4,7 +4,7 @@ import Contact from './Contact';
 
 const Quality = () => {
   return (
-    <section className="bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] py-8 md:py-16">
+    <section className="bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] py-8 md:py-16">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex flex-col md:flex-row gap-6">
       {/* Left Section (70%) */}
       <div className="md:w-8/12 w-full">

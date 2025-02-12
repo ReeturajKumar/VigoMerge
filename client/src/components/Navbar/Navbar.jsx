@@ -43,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full left-0 right-0 bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] shadow-sm z-50">
+    <nav className="fixed top-0 w-full left-0 right-0 bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] shadow-sm z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="nav-container flex items-center">
@@ -72,7 +72,7 @@ const Navbar = () => {
 
                 {/* Dropdown for Resources and Industry */}
                 {item.hasDropdown && activeDropdown === item.name && (
-                  <div className="absolute left-0 mt-2 w-48 bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] border rounded-lg shadow-lg">
+                  <div className="absolute left-0 mt-2 w-48 bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] border rounded-lg shadow-lg">
                     {item.dropdownItems.map((dropdownItem, idx) => (
                       <Link
                         key={idx}
@@ -110,7 +110,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-gradient-to-r from-[#EDF2F4] to-[#E0E7FF] shadow-md">
+        <div className="md:hidden bg-gradient-to-r from-[#E1E8FE] to-[#E0E7FF] shadow-md">
           <div className="px-4 pt-2 pb-3 space-y-3 sm:px-3">
             {menuItem.map((item, index) => (
               <div key={index}>
